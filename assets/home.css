@@ -1,0 +1,261 @@
+* {
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: poppins,sans-serif;
+    background-color: #fff;
+    color: #fff;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 8%;
+    background-color: rgb(34, 98, 111, 0.99);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.074);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.navbar .navbar-nav a {
+    font-size: 1.2rem;
+    color: #fff;
+    display: inline-block;
+    margin:0 1rem;
+}
+
+.navbar .navbar-nav a:hover{
+    color: #CB7926;
+}
+
+.navbar .navbar-nav a::after {
+    content: ' ';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #CB7926;
+    transform: scaleX(0);
+    transition: 0.3s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+}
+
+.isi {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #22626F;
+}
+
+.isi .judul {
+    padding: 1.4rem 8%;
+    max-width: 60rem;
+}
+
+.isi .judul h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.isi .judul p {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.btn {
+    background-color: #CB7926;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0.6rem 1.3rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.cta {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.about {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+
+.about h3 {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 10rem;
+}
+
+.about p {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 300;
+    
+}
+.tombol {
+    background-color: #000;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.pembungkus1 {
+    display: flex;
+    padding: 0 2rem;
+    margin: 0 2rem;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0  #1f1e1e;
+    padding: 1rem 1rem 5rem 1rem;
+    
+}
+.pembungkus2 {
+    display: flex;
+    padding: 0 2rem;
+    margin: 0 2rem;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0  #1f1e1e;
+    padding: 1rem 1rem 5rem 1rem;
+}
+.tentang-kami {
+    color: #000;
+    display: flex;
+    margin-top: 10rem;
+    padding: 0 3rem;
+}
+
+.tentang-kami .content h2 {
+    font-weight: 600;
+    margin-top: 10rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tentang-kami .content p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.produk {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15rem;
+    padding: 0 3rem;
+    padding-right: rem;
+}
+
+.gallery {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.gallery-1 img {
+    width: 20rem;
+    
+}
+.gallery-1 {
+    display: flex;
+    background-color: #22626F;
+    box-shadow: 0 1px 1px 0  #1f1e1e;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.gallery-2 img {
+    width: 20rem;
+}
+
+.gallery-2 {
+    display: flex;
+    background-color: #22626F;
+    box-shadow: 0 1px 1px 0  #1f1e1e;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.gallery-3 img {
+    width: 20rem;
+}
+.gallery-3 {
+    display: flex;
+
+    background-color: #22626F;
+    box-shadow: 0 1px 1px 0  #1f1e1e;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+
+.produk main {
+    padding-right: rem;
+}
+
+.produk main h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+.produk main p {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.klik {
+    background-color: #000;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.finish {
+    background-color: #22626F;
+    margin-top: 10rem;
+}
+
+
+.finish p {
+    text-align: center;
+}
+
+
+
