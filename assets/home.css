@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.4rem 8%;
-    background-color: rgb(34, 98, 111, 0.99);
+    background-color: #366765;
     border-bottom: 1px solid rgba(255, 255, 255, 0.074);
     position: fixed;
     top: 0;
@@ -65,7 +65,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #22626F;
+    background-color: #366765;
 }
 
 .isi .judul {
@@ -137,22 +137,29 @@ body {
     font-size: 1rem;
 }
 
+
 .pembungkus1 {
     display: flex;
     padding: 0 2rem;
     margin: 0 2rem;
     background-color: #fff;
-    box-shadow: 0 1px 1px 0  #1f1e1e;
+    box-shadow: 0 0.4rem 1rem 0  #1f1e1e;
     padding: 1rem 1rem 5rem 1rem;
     
+}
+.pembungkus1 img {
+    width: 20rem;
 }
 .pembungkus2 {
     display: flex;
     padding: 0 2rem;
     margin: 0 2rem;
     background-color: #fff;
-    box-shadow: 0 1px 1px 0  #1f1e1e;
+    box-shadow: 0 0.4rem 1rem 0  #1f1e1e;
     padding: 1rem 1rem 5rem 1rem;
+}
+.pembungkus2 img {
+    width: 20rem;
 }
 .tentang-kami {
     color: #000;
@@ -193,8 +200,9 @@ body {
 }
 .gallery-1 {
     display: flex;
-    background-color: #22626F;
-    box-shadow: 0 1px 1px 0  #1f1e1e;
+    background-color: #366765;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 0.8rem 0  #1f1e1e;
     padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -204,8 +212,9 @@ body {
 
 .gallery-2 {
     display: flex;
-    background-color: #22626F;
-    box-shadow: 0 1px 1px 0  #1f1e1e;
+    background-color: #366765;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 0.8rem 0  #1f1e1e;
     padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -215,14 +224,15 @@ body {
 .gallery-3 {
     display: flex;
 
-    background-color: #22626F;
-    box-shadow: 0 1px 1px 0  #1f1e1e;
+    background-color: #366765;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 0.8rem 0  #1f1e1e;
     padding: 1rem 1rem 1rem 1rem;
 }
 
 
 .produk main {
-    padding-right: rem;
+    padding-right: 1.2rem;
 }
 
 .produk main h2 {
@@ -248,13 +258,19 @@ body {
 }
 
 .finish {
-    background-color: #22626F;
+    background-color: #366765;
     margin-top: 10rem;
 }
 
 
 .finish p {
     text-align: center;
+}
+.finish h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
 }
 
 
